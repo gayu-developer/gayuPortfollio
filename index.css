@@ -1,0 +1,309 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: auto;
+}
+
+/* header css */
+header {
+  height: 60px;
+  width: 100%;
+  background-color: #071012;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  color: white;
+  font-style: oblique;
+}
+.logo {
+  margin-right: 90px;
+}
+
+ul {
+  display: flex;
+  gap: 70px;
+  list-style: none;
+  font-size: 26px;
+  color: white;
+  text-decoration: aliceblue;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+ul a{
+  
+  font-size: 26px;
+  color: white;
+  text-decoration: aliceblue;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+
+
+/* home styling */
+.home {
+  height: 560px;
+  width: 100%;
+  background-color: #e4bfe8;
+  background-color: #0f181a;
+}
+
+.home-content {
+  height: 70%;
+  width: 100%;
+  padding: 10px;
+  color: rgb(180, 160, 160);
+  justify-content: center;
+  align-items: center;
+}
+
+.hello-heading {
+  margin-left: 40%;
+  margin-top: 10%;
+  font-size: 50px;
+  font-weight: 500;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.name-heading {
+  margin-left: 37%;
+  font-size: 50px;
+  font-weight: 500;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-bottom: 20px;
+}
+.data {
+  margin-left: 10%;
+  margin-top: 35px;
+  font-size: 35px;
+  font-weight: 500;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-bottom: 20px;
+}
+.data-o {
+  margin-left: 17%;
+  margin-top: 50px;
+  font-size: 35px;
+  font-weight: 500;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-bottom: 20px;
+}
+.btn-container {
+  gap: 30px;
+  display: flex;
+}
+
+.btn-container a{
+    color: #000;
+    text-decoration: none;
+}
+.button-sty {
+  margin-left: 34%;
+  margin-top: 33px;
+  height: 43px;
+  width: 14%;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border-radius: 10px;
+}
+.button-styl {
+  margin-left: 1%;
+  margin-top: 33px;
+  height: 43px;
+  width: 14%;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border-radius: 10px;
+}
+
+/* about section start */
+
+.about {
+  background-color: #0f181a;
+  display: flex;
+  flex-direction: column;
+  font-size: xx-large;
+  justify-content: left;
+  /* background-image: url("https://dkemhji6i1k0x.cloudfront.net/000_clients/1173818/page/1173818EvT0ftuv.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+.about-title {
+  font-size: 30px;
+  margin-left: 45%;
+  color: rgb(34, 4, 4);
+  font-size: 40px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.about-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.left-container {
+  height: 100%;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+  color: rgb(180, 160, 160);
+  padding: 30px;
+}
+
+.right-container {
+  height: 100%;
+  width: 350px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: inset;
+  border-radius: 10px;
+}
+.about-heading {
+  margin-left: 17%;
+  font-weight: 600;
+  font-size: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.about-data {
+  font-size: 30px;
+  font-weight: 500;
+  margin-left: 57px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.about-img {
+  height: 380px;
+  width: 290px;
+  margin-top: 70px;
+  border-radius: 20px;
+  box-shadow: #f3f1f3 2px 3px 3px;
+}
+.down-conatiner {
+  font-size: xx-large;
+  color: rgba(223, 229, 229, 0.753);
+}
+
+.btn-outline {
+  background: transparent;
+  border: 2px solid #cd8fcc;
+  color: inherit;
+  padding: 12px 28px;
+  border-radius: 8px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  font-weight: 600;
+  text-decoration: none;
+}
+.btn-outline a {
+    color: white;          
+    text-decoration: none;    
+}
+
+
+.btn-outline:hover {
+  background: #fbf9fa;
+  color: #000;
+  transform: translateY(-3px);
+}
+
+.btn-outline:hover a {
+  background: #fbf9fa;
+  color: #000;
+  transform: translateY(-3px);
+}
+/* project section start */
+.projects {
+  height: 80vh;
+  width: 100%;
+  background-color: rgb(17, 36, 49);
+  background-color: #0f181a;
+}
+.project-heading {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: xx-large;
+}
+.Project-titl {
+  font-size: 30px;
+  margin-left: 2%;
+  color: rgb(240, 236, 236);
+  font-size: 40px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.row-one {
+  height: 40%;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.box-1 {
+  height: 100%;
+  width: 30%;
+  border-style: solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-image: url("https://verpex.com/assets/uploads/images/blog/Free-HTML-Editors.webp?v=1695388726");
+  background-size: cover;
+  background-repeat: no-repeat;
+  gap: 10px;
+  border-radius: 17px;
+  box-shadow: #e4bfe8 3px 3px 3px;
+}
+.box-2 {
+  height: 100%;
+  width: 30%;
+  border-style: solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-image: url("https://www.motocms.com/blog/wp-content/uploads/2018/07/css-main-image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  gap: 10px;
+  border-radius: 17px;
+  box-shadow: #e4bfe8 3px 3px 3px;
+}
+
+.contact {
+  height: 100vh;
+  width: 100%;
+   background-color: #0f181a;
+  background-image: url("");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.contact-heading {
+  display: flex;
+  justify-content: center;
+  color: beige;
+  font-size: xx-large;
+}
+.contact-title{
+    font-size: 30px;
+  margin-left: 2%;
+  color: rgb(240, 236, 236);
+  font-size: 40px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.contact-infor {
+  display: flex;
+  color: rgb(235, 230, 230);
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  font-size: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
